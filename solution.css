@@ -1,0 +1,9 @@
+The following CSS rule demonstrates a more specific way to target only the intended elements within the container, resolving the issue:
+
+```css
+#myContainer p { color: blue; }
+/*OR*/
+.container > p { color: blue; }
+```
+
+The `#myContainer` selector ensures that only paragraphs within the element with the ID `myContainer` are affected. Alternatively, `.container > p` ensures that only direct children paragraphs within the element having the class `container` are targeted.
