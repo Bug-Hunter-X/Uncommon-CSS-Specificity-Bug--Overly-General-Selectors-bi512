@@ -1,0 +1,7 @@
+The following CSS rule unintentionally targets a specific element due to the use of an overly general selector:
+
+```css
+.container p { color: blue; }
+```
+
+This rule applies to all paragraph elements within any element having the class `container`. If you intend to style only paragraphs within a specific container, use a more precise selector.
